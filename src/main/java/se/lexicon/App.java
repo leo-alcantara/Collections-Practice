@@ -165,6 +165,21 @@ public class App
         //    and a car brand(String). Lastly, print out only the keys.
         System.out.println("10.");
 
+        for(Map.Entry m : cars.entrySet()){
+            System.out.println("Key: " + m.getKey());
+        }
+        System.out.println("-----------------------------");
+
+        //11. Create a new hashMap of type <Integer,String> and populate it with elements containing an id(Integer),
+        //    and a car brand(String). Lastly, print out only the values.
+        System.out.println("11.");
+
+        for(Map.Entry m : cars.entrySet()){
+            System.out.println("Value: " + m.getValue());
+        }
+        System.out.println("-----------------------------");
+
+
 
 
 
