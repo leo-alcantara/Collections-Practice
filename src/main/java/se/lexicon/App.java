@@ -179,6 +179,33 @@ public class App
         }
         System.out.println("-----------------------------");
 
+        //12. Create a new class and call it Car. Add fields for Id, Brand and Model + getters and setters Create a new hashMap of type <Integer,Car>
+        //    and populate it with elements containing an id(Integer), and a car object(Car). Lastly, print out only the car's brand.
+        System.out.println("12.");
+        Car bmw = new Car(1, "BMW", "TT");
+        Car audi = new Car(2, "Audi", "A3");
+        Car porsche = new Car(3, "Porsche", "911");
+        Car ferrari = new Car(4, "Ferrari", "F50");
+
+        HashMap<Integer, Car> carShow = new HashMap<>();
+
+        carShow.put(1, bmw);
+        carShow.put(2, audi);
+        carShow.put(3, porsche);
+        carShow.put(4, ferrari);
+
+        List<String> carBrands = new ArrayList<>();
+        carBrands.add(bmw.getBrand());
+        carBrands.add(audi.getBrand());
+        carBrands.add(porsche.getBrand());
+        carBrands.add(ferrari.getBrand());
+
+        System.out.println(carBrands);
+
+
+
+
+
 
 
 
