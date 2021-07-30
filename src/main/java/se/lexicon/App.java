@@ -1,12 +1,12 @@
 package se.lexicon;
 
 
-import sun.security.x509.OtherName;
+
 
 import java.util.*;
 
-public class App
-{
+public class App {
+
     public static void main( String[] args ) {
 
         //1. Create a new list and populate it with the days of the week. Lastly, print out the list.
@@ -201,6 +201,13 @@ public class App
         carBrands.add(ferrari.getBrand());
 
         System.out.println(carBrands);
+
+        System.out.println("-----------------------------");
+
+
+
+
+
 
 
 
