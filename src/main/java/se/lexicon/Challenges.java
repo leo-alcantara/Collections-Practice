@@ -64,6 +64,23 @@ public class Challenges {
         //   Have the class implement the Comparable interface. Implement the override method and have it compare the AGE of the superhero.
         //   Next, create a new arrayList of type SuperHero. Sort the list by age and print out each element.
 
+        System.out.println("3.");
+
+        List<SuperHero> heroes = new ArrayList<>();
+        heroes.add(new SuperHero(1, "Batman", 35));
+        heroes.add(new SuperHero(2, "Wolverine", 105));
+        heroes.add(new SuperHero(3, "Hulk", 45));
+        heroes.add(new SuperHero(4, "Spider man", 18));
+
+        Collections.sort(heroes);
+
+        for(SuperHero hero : heroes){
+            System.out.println("ID: " + hero.id +
+                    ", Name: " + hero.name +
+                    ", Age: " + hero.age);
+        }
+
+
 
 
 
